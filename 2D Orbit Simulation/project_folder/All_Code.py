@@ -1,4 +1,4 @@
-# https://github.com/jprichards779/My-First-Big-Projects 
+
 # Importing from Python libraries
 import pygame                  
 import random
