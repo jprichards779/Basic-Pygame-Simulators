@@ -108,9 +108,10 @@ class Gravitation:
     The above methods summaries the essential vector equations underpinning orbital motion in classical 
     physics and are all invoked in method [5.] of Main. 
     But in reality we need to account for collision events as we don't just want stable orbits. 
-    Without an effort to account for a masses internal gravity on my part, the path equations 
+    (It turns out pygame has methods designed to deal with collisions so this extra work was the cost of my ignorance)
+    Without an effort to account for a masses internal gravity, the path equations 
     above will simply allow masses to get too close and experience assymptotic gravity, causing 
-    objects to accelrate through one another / false gravitational slingshots. 
+    objects to accelrate through one another / false gravitational slingshots. The following resolve this.
     """
 
     # 9. The following method will allow the the machine to differentiate between 
